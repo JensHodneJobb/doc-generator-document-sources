@@ -2,7 +2,7 @@
 id: surface-protection-preservation
 title: "Surface Protection and Preservation"
 chapter: 11
-categories: [OPT1, OPT2, OPT3, OPT4, OPT5]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
 tags: [all]
 ---
 

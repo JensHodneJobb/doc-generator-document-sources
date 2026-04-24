@@ -2,7 +2,7 @@
 id: scope
 title: "Scope"
 chapter: 2
-categories: [OPT1, OPT2, OPT3, OPT4, OPT5]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
 tags: [all]
 ---
 
@@ -26,28 +26,28 @@ Not included in this specification: (Not exhaustive)
 
 ## Principal Regulations
 
-<!-- opt: OPT1 -->
-**Regulation Category: 1 – Basic**
+<!-- opt: O_Basic -->
+### Regulation Category: 1 – Basic
 
 **Drilling Facility or Unit Category:** Facilities with no special territorial requirements, or mobile units with a basic maritime class notation, not including the drilling plant.
 
 **Activities / Deliveries:** Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH.
 
 **Compliance:** Products are compliant with the default standards noted in Table 4-1. ATEX or IECEx compliant – as applicable and reflected in the price.
-<!-- /opt: OPT1 -->
+<!-- /opt: O_Basic -->
 
-<!-- opt: OPT2 -->
-**Regulation Category: 2 – DNV with DRILL notation**
+<!-- opt: O_DnvDrill -->
+### Regulation Category: 2 – DNV with DRILL notation
 
 **Drilling Facility or Unit Category:** Mobile unit where certification of the drilling plant by DNV is required. Also including well intervention units with WELL notation.
 
 **Activities / Deliveries:** Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately.
 
 **Compliance:** Products are compliant with the default standards noted in Table 4-1.
-<!-- /opt: OPT2 -->
+<!-- /opt: O_DnvDrill -->
 
-<!-- opt: OPT3 -->
-**Regulation Category: 3 – DNV with DRILL-N notation**
+<!-- opt: O_DnvDrillN -->
+### Regulation Category: 3 – DNV with DRILL-N notation
 
 **Drilling Facility or Unit Category:** Mobile unit registered in a national shipping register and dedicated for operating on the Norwegian Continental Shelf and where certification of the drilling plant is required. Also including well intervention units with WELL-N notation.
 
@@ -57,20 +57,20 @@ Not included in this specification: (Not exhaustive)
 - NORSOK R-002 for lifting equipment
 - NORSOK S-002 as applicable and reasonable
 - Norwegian FME regulations for electrical installations, if registered with Norwegian flag.
-<!-- /opt: OPT3 -->
+<!-- /opt: O_DnvDrillN -->
 
-<!-- opt: OPT4 -->
-**Regulation Category: 4 – ABS with ✠CDS notation**
+<!-- opt: O_AbsCds -->
+### Regulation Category: 4 – ABS with ✠CDS notation
 
 **Drilling Facility or Unit Category:** Mobile unit where certification of the drilling plant by American Bureau of Shipping is required.
 
 **Activities / Deliveries:** Products are certified by ABS as stipulated in "Guide for Classification of Drilling System" (CDS guide). Certification is priced separately.
 
 **Compliance:** Products are compliant with the default standards noted in Table 4-1. And applicable parts of ABS MODU rules.
-<!-- /opt: OPT4 -->
+<!-- /opt: O_AbsCds -->
 
-<!-- opt: OPT5 -->
-**Regulation Category: 5 – Norwegian Fixed Installations**
+<!-- opt: O_NorFixed -->
+### Regulation Category: 5 – Norwegian Fixed Installations
 
 **Drilling Facility or Unit Category:** Drilling facilities permanently placed at the Norwegian continental shelf (including buoyant vessels at permanent position).
 
@@ -81,10 +81,10 @@ Not included in this specification: (Not exhaustive)
 - NORSOK R-002 for lifting equipment
 - NORSOK S-002 as applicable and reasonable for drilling products.
 - NORSOK D-001 as applicable for drilling products.
-<!-- /opt: OPT5 -->
+<!-- /opt: O_NorFixed -->
 
 <!-- opt: OPT6 -->
-**Regulation Category: 6 – Other**
+### Regulation Category: 6 – Other
 
 **Drilling Facility or Unit Category:** Other rules, regulations or requirements. Examples may include Canadian, Russian and UK regulations, or Lloyds, BV and other classification rules.
 

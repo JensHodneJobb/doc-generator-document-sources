@@ -2,7 +2,7 @@
 id: ce-marking
 title: "CE Marking"
 chapter: 6
-categories: [OPT5]
+categories: [O_NorFixed]
 tags: [all]
 ---
 
