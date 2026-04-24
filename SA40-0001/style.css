@@ -1,0 +1,223 @@
+/* SA40-0001 PDF Stylesheet — Chromium/Playwright PDF rendering */
+/* Brand: HMH Teal #0092BC */
+/* Original margins: top 4cm, bottom 2.1cm, left 2cm, right 2cm */
+/* Header/footer handled via Playwright headerTemplate/footerTemplate */
+
+@page {
+    size: A4;
+}
+
+/* Avoid page break right after a heading */
+h1, h2, h3 {
+    page-break-after: avoid;
+}
+
+/* Keep table rows together when possible */
+tr {
+    page-break-inside: avoid;
+}
+
+body {
+    font-family: Calibri, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Cover page ── */
+.cover {
+    page-break-after: always;
+    padding-top: 0.5cm;
+}
+
+.cover-banner {
+    width: 100%;
+    max-height: 6cm;
+    object-fit: cover;
+    margin-bottom: 1.5cm;
+}
+
+.cover-logo {
+    height: 1.8cm;
+    margin-bottom: 0.5cm;
+}
+
+.cover-doc-code {
+    font-size: 14pt;
+    color: #666;
+    margin-top: 1cm;
+    margin-bottom: 0.2cm;
+    letter-spacing: 0.5pt;
+}
+
+.cover-title {
+    font-size: 26pt;
+    font-weight: bold;
+    color: #0092BC;
+    margin-top: 0.3cm;
+    margin-bottom: 0.4cm;
+    line-height: 1.2;
+}
+
+.cover-subtitle {
+    font-size: 16pt;
+    color: #444;
+    margin-bottom: 1.5cm;
+}
+
+.cover-meta-table {
+    border-collapse: collapse;
+    font-size: 11pt;
+    margin-top: 1cm;
+}
+
+.cover-meta-table td {
+    padding: 4pt 12pt 4pt 0;
+    border: none;
+    vertical-align: top;
+}
+
+.cover-meta-table td:first-child {
+    font-weight: bold;
+    color: #555;
+    white-space: nowrap;
+    padding-right: 1cm;
+}
+
+/* ── Headings ── */
+h1 {
+    font-size: 18pt;
+    color: #0092BC;
+    margin-top: 0.5cm;
+    margin-bottom: 0.4cm;
+    padding-bottom: 3pt;
+    border-bottom: 1.5pt solid #0092BC;
+    page-break-before: always;
+}
+
+h2 {
+    font-size: 14pt;
+    color: #222;
+    margin-top: 0.8cm;
+    margin-bottom: 0.3cm;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #0092BC;
+    margin-top: 0.6cm;
+    margin-bottom: 0.2cm;
+}
+
+/* ── Body text ── */
+p {
+    margin-top: 0;
+    margin-bottom: 6pt;
+    text-align: justify;
+}
+
+ul, ol {
+    margin-left: 0.6cm;
+    margin-top: 0;
+    margin-bottom: 6pt;
+    padding-left: 0.5cm;
+}
+
+li {
+    margin-bottom: 3pt;
+}
+
+/* ── Tables ── */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.4cm 0;
+    font-size: 9.5pt;
+    line-height: 1.35;
+}
+
+thead th, th {
+    background-color: #0092BC;
+    color: #fff;
+    padding: 5pt 8pt;
+    text-align: left;
+    font-weight: 600;
+    border: 1pt solid #007a9e;
+    font-size: 9pt;
+}
+
+td {
+    padding: 4pt 8pt;
+    border: 0.5pt solid #ccc;
+    vertical-align: top;
+}
+
+/* Subtle zebra striping */
+tbody tr:nth-child(even) td {
+    background-color: #f6fafb;
+}
+
+/* ── Strong / bold text ── */
+strong, b {
+    font-weight: 600;
+}
+
+/* ── Links ── */
+a {
+    color: #0092BC;
+    text-decoration: none;
+}
+
+/* ── Table of Contents ── */
+.toc-section {
+    margin-top: 0.3cm;
+}
+
+.toc-table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    margin-top: 0.3cm;
+    font-size: 10.5pt;
+}
+
+.toc-table td {
+    border: none;
+    padding: 3pt 4pt;
+    vertical-align: top;
+}
+
+.toc-h1 td {
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-top: 5pt;
+}
+
+.toc-h1 .toc-num {
+    width: 1.2cm;
+    white-space: nowrap;
+}
+
+.toc-h1 .toc-page {
+    width: 1cm;
+    text-align: right;
+}
+
+.toc-h2 td {
+    font-weight: normal;
+    color: #444;
+    padding-left: 0.6cm;
+}
+
+.toc-h2 .toc-num {
+    width: 1.5cm;
+    white-space: nowrap;
+    padding-left: 0.6cm;
+}
+
+.toc-h2 .toc-page {
+    width: 1cm;
+    text-align: right;
+}

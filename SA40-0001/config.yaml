@@ -1,0 +1,148 @@
+# ─── Document Configuration ───────────────────────────────────────────────
+# This config file defines document metadata, variant categories, and all
+# content-filtering rules. Copy this file + the chapters/ folder to create
+# a new document project.
+#
+# Usage:
+#   python buildModularDocument.py SA40-0001 OPT1        # Build one variant
+#   python buildModularDocument.py SA40-0001 --all       # Build all variants
+#   python buildModularDocument.py SA40-0001 --list      # List available categories
+#   python buildModularDocument.py SA40-0001 OPT2 --md   # Markdown only (no PDF)
+
+document:
+  cover_title: "Technical Specification"
+  subtitle: "HMH Drilling Products"
+  version: "10"
+  date_format: "%B %d, %Y"
+
+  # DOCX styling: 'branded' (teal headers, zebra stripes) | 'bordered'
+  # (grey hairline borders, no fill — matches the original SA40-0001) | 'none'
+  docx_table_style: bordered
+  # Prepend a simple cover page to the DOCX (set false to skip)
+  docx_cover: true
+
+  # TOC placement: insert Table of Contents after this chapter id.
+  # Set to null or omit to disable automatic TOC.
+  toc_after_chapter: "scope"
+
+  # Rows to remove from any table (matched by cell text).
+  # Useful for removing "catch-all" options that don't apply to generated variants.
+  remove_table_rows:
+    - "6 - Other"
+
+  revision_history:
+    - rev: "10"
+      reason: "Document regenerated from modular sources; all-options composite variant introduced."
+      date: "April 24, 2026"
+    - rev: "09"
+      reason: "Table 3-1 Functional requirements NORSOK D-001 and NORSOK S-002 updated"
+      date: "January 15, 2025"
+    - rev: "08"
+      reason: "Chapter 1 Included statements relating to warranties"
+      date: "May 18, 2020"
+    - rev: "07"
+      reason: "Document table 18-1 updated. EU directives updated."
+      date: "February 15, 2018"
+
+categories:
+  OPT1:
+    doc_code: "SA40-0001-01"
+    label: "Offshore Drilling Basic"
+    description: >
+      Facilities with no special territorial requirements, or mobile units
+      with a basic maritime class notation, not including the drilling plant.
+    include_tags: [all, basic, atex-iecex]
+    exclude_chapters: [ce-marking]
+    exclude_table_rows: []
+    variables:
+      certification_body: "HMH (Works Certificate)"
+      certification_note: "Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH"
+
+  OPT2:
+    doc_code: "SA40-0001-02"
+    label: "Offshore Drilling DNV Drill"
+    description: >
+      Mobile unit where certification of the drilling plant by DNV is required.
+      Also including well intervention units with WELL notation.
+    include_tags: [all, dnv, dnv-drill]
+    exclude_chapters: [ce-marking]
+    exclude_table_rows: [abs-cds, abs-isqm, abs-modu, fme, norsok-d001, norsok-r002, norsok-s002, psa]
+    variables:
+      certification_body: "DNV"
+      certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately."
+
+  OPT3:
+    doc_code: "SA40-0001-03"
+    label: "Offshore Drilling DNV Drill-N"
+    description: >
+      Mobile unit registered in a national shipping register and dedicated
+      for operating on the Norwegian Continental Shelf.
+    include_tags: [all, dnv, dnv-drill-n, norsok, norwegian]
+    exclude_chapters: [ce-marking]
+    exclude_table_rows: [abs-cds, abs-isqm, abs-modu, psa]
+    variables:
+      certification_body: "DNV"
+      certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101 and relevant Norwegian regulations. Certification is priced separately."
+
+  OPT4:
+    doc_code: "SA40-0001-04"
+    label: "Offshore Drilling ABS CDS"
+    description: >
+      Mobile unit where certification of the drilling plant by American Bureau
+      of Shipping is required.
+    include_tags: [all, abs]
+    exclude_chapters: [ce-marking]
+    exclude_table_rows: [fme, norsok-d001, norsok-r002, norsok-s002, psa]
+    variables:
+      certification_body: "ABS"
+      certification_note: "Products are certified by ABS as stipulated in the CDS Guide. Certification is priced separately."
+
+  OPT5:
+    doc_code: "SA40-0001-05"
+    label: "Offshore Drilling Norway, Fixed Installation"
+    description: >
+      Drilling facilities permanently placed at the Norwegian continental shelf
+      (including buoyant vessels at permanent position).
+    include_tags: [all, ce, norsok, norwegian, fixed]
+    exclude_chapters: []
+    exclude_table_rows: [abs-cds, abs-isqm, abs-modu, fme]
+    variables:
+      certification_body: "CE / Notified Body"
+      certification_note: "Equipment shall be CE marked and HMH will issue a declaration of conformity or declaration of incorporation."
+
+  ALL:
+    doc_code: "SA40-0001-ALL"
+    label: "Composite — All Options Combined"
+    description: >
+      Reference / review variant containing every option block, every chapter
+      and every table row from all OPT1-OPT5 variants. Intended for internal
+      review and side-by-side comparison, not for customer delivery.
+    # Union of all tags used across OPT1-OPT5
+    include_tags: [all, basic, atex-iecex, dnv, dnv-drill, dnv-drill-n,
+                   norsok, norwegian, abs, ce, fixed]
+    exclude_chapters: []
+    exclude_table_rows: []
+    # Override document-level row removals so nothing is filtered out
+    remove_table_rows: []
+    # Keep <!-- opt: OPTx --> blocks for every option in the output
+    include_all_opt_blocks: true
+    # Composite needs every chapter regardless of its front-matter categories list
+    ignore_chapter_categories: true
+    # Rewrite specific headings for the composite variant. The key is the
+    # exact source line (after stripping leading/trailing whitespace); the
+    # value replaces it and may contain multiple lines.
+    heading_replacements:
+      "## Principal Regulations": |
+        ## Principal Regulations — All-Option Reference Overview
+
+        > **Composite reference document.** Dedicated single-option versions of this
+        > specification exist for each regulation category (`SA40-0001-01` through
+        > `SA40-0001-05`). Use the relevant single-option document for contractual
+        > delivery. This composite collects every option's text in one place to
+        > support internal review, side-by-side comparison and gap analysis only.
+        >
+        > Each option below is introduced by an `OPTx` block — the same content
+        > that would appear on its own in the corresponding dedicated document.
+    variables:
+      certification_body: "Multiple — see option blocks"
+      certification_note: "This composite contains certification statements for every option. Refer to the relevant <!-- opt: OPTx --> sections."

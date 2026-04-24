@@ -1,0 +1,15 @@
+# Generated documents
+output/
+**/output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/*.log
+
+# Temporary / backup files
+*.tmp
+*.bak
+~$*

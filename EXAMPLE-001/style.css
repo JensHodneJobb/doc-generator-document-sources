@@ -1,0 +1,420 @@
+/* ============================================================
+   EXAMPLE-001 Stylesheet
+   Design language inspired by designa.no — Scandinavian
+   minimalism: warm sand palette, refined serif display type,
+   hairline rules, generous whitespace.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ---- Design tokens -------------------------------------- */
+:root {
+    --bg:         #FAF7F2;   /* warm white */
+    --paper:      #FFFFFF;
+    --sand:       #E8DFD1;   /* soft sand */
+    --sand-soft:  #F2EBE0;
+    --ink:        #1F1F1D;   /* near-black */
+    --ink-soft:   #4A4642;
+    --ink-mute:   #7A7368;
+    --oak:        #8B6F47;   /* warm oak */
+    --brass:      #B0926A;   /* subtle accent */
+    --rule:       #D9CFBF;   /* hairline */
+    --rule-soft:  #ECE4D6;
+
+    --serif: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
+    --sans:  "Inter", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+/* ---- Page setup ----------------------------------------- */
+@page {
+    size: A4;
+    margin: 2.6cm 2.2cm 2.4cm 2.2cm;
+}
+
+h1, h2, h3, h4 { page-break-after: avoid; }
+tr, figure, blockquote { page-break-inside: avoid; }
+
+/* ---- Body ----------------------------------------------- */
+body {
+    font-family: var(--sans);
+    font-size: 10.5pt;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    background: var(--bg);
+    font-weight: 300;
+    letter-spacing: 0.005em;
+    margin: 0;
+}
+
+p { margin: 0 0 0.9em 0; }
+
+strong, b { color: var(--ink); font-weight: 500; }
+
+a {
+    color: var(--oak);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+}
+
+/* ---- Headings ------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--serif);
+    color: var(--ink);
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 28pt;
+    font-weight: 400;
+    margin: 1.6em 0 0.6em 0;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--rule);
+    page-break-before: always;
+}
+
+/* First H1 in document shouldn't force a new page */
+body > h1:first-of-type,
+.cover + h1,
+h1:first-child { page-break-before: avoid; }
+
+h2 {
+    font-size: 18pt;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 1.8em 0 0.5em 0;
+}
+
+h2::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--brass);
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--oak);
+    margin: 1.4em 0 0.4em 0;
+    font-family: var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+h4 {
+    font-size: 11pt;
+    color: var(--ink);
+    margin: 1.2em 0 0.3em 0;
+}
+
+/* ---- Lists ---------------------------------------------- */
+ul, ol {
+    margin: 0.5em 0 1em 0;
+    padding-left: 1.4em;
+}
+
+li { margin: 0.25em 0; }
+
+ul li::marker { color: var(--brass); }
+ol li::marker { color: var(--oak); font-weight: 500; }
+
+/* ---- Tables --------------------------------------------- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.2em 0 1.6em 0;
+    font-size: 10pt;
+}
+
+thead th {
+    background: transparent;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding: 0.7em 0.9em;
+    border-bottom: 1.5px solid var(--ink);
+    border-top: 1.5px solid var(--ink);
+}
+
+tbody td {
+    padding: 0.65em 0.9em;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: top;
+    color: var(--ink-soft);
+}
+
+tbody tr:last-child td { border-bottom: 1px solid var(--rule); }
+
+tbody tr:nth-child(even) td { background: var(--sand-soft); }
+
+/* ---- Blockquote ----------------------------------------- */
+blockquote {
+    margin: 1.4em 0;
+    padding: 0.4em 0 0.4em 1.4em;
+    border-left: 2px solid var(--brass);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 13pt;
+    color: var(--ink);
+    line-height: 1.5;
+}
+
+/* ---- Code ----------------------------------------------- */
+code, pre {
+    font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
+    font-size: 9.5pt;
+}
+
+code {
+    background: var(--sand-soft);
+    color: var(--oak);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+}
+
+pre {
+    background: var(--sand-soft);
+    border-left: 2px solid var(--brass);
+    padding: 1em 1.2em;
+    margin: 1em 0;
+    overflow-x: auto;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+pre code { background: transparent; padding: 0; color: inherit; }
+
+hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2em 0;
+}
+
+/* ============================================================
+   COVER PAGE
+   ============================================================ */
+.cover {
+    page-break-after: always;
+    height: 100vh;
+    margin: -2.6cm -2.2cm 0 -2.2cm;       /* bleed to page edges  */
+    padding: 0;
+    background: var(--bg);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover::after {
+    content: "";
+    position: absolute;
+    left: 2.2cm;
+    right: 2.2cm;
+    bottom: 2.2cm;
+    height: 1px;
+    background: var(--ink);
+}
+
+.cover-banner {
+    width: 100%;
+    height: 11cm;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+/* If there is no banner image, leave a generous sand block instead */
+.cover:not(:has(.cover-banner))::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 11cm;
+    background:
+        linear-gradient(180deg, var(--sand) 0%, var(--sand-soft) 100%);
+}
+
+.cover-logo {
+    position: absolute;
+    top: 2.2cm;
+    right: 2.2cm;
+    height: 1.4cm;
+    width: auto;
+    z-index: 2;
+    background: rgba(250, 247, 242, 0.85);
+    padding: 0.3cm 0.4cm;
+}
+
+.cover-doc-code {
+    margin: 2.4cm 2.2cm 0 2.2cm;
+    font-family: var(--sans);
+    font-size: 9pt;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--brass);
+}
+
+.cover-doc-code::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background: var(--brass);
+    vertical-align: middle;
+    margin-right: 0.7em;
+    margin-bottom: 0.2em;
+}
+
+.cover-title {
+    margin: 0.6cm 2.2cm 0 2.2cm;
+    font-family: var(--serif);
+    font-size: 46pt;
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--ink);
+    letter-spacing: -0.015em;
+}
+
+.cover-subtitle {
+    margin: 0.5cm 2.2cm 0 2.2cm;
+    font-family: var(--serif);
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--ink-soft);
+}
+
+.cover-meta-table {
+    position: absolute;
+    bottom: 3cm;
+    left: 2.2cm;
+    width: auto;
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: 9.5pt;
+    margin: 0;
+}
+
+.cover-meta-table td {
+    padding: 0.35em 0;
+    border: none;
+    color: var(--ink-soft);
+    background: transparent !important;
+}
+
+.cover-meta-table td:first-child {
+    color: var(--ink-mute);
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    padding-right: 2.5em;
+    font-weight: 500;
+}
+
+.cover-meta-table td:last-child {
+    color: var(--ink);
+    font-weight: 500;
+}
+
+/* ============================================================
+   TABLE OF CONTENTS
+   ============================================================ */
+.toc-section {
+    margin: 0 0 2em 0;
+    page-break-after: always;
+}
+
+.toc-section::before {
+    content: "Innhold";              /* "Contents" in Norwegian */
+    display: block;
+    font-family: var(--serif);
+    font-size: 28pt;
+    font-weight: 400;
+    color: var(--ink);
+    margin: 0.4em 0 0.2em 0;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--rule);
+}
+
+.toc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0 0 0;
+    font-family: var(--sans);
+    font-size: 10.5pt;
+}
+
+.toc-table tr td {
+    padding: 0.45em 0.3em;
+    border: none;
+    border-bottom: 1px dotted var(--rule);
+    background: transparent !important;
+    vertical-align: baseline;
+}
+
+.toc-num {
+    width: 2.4em;
+    color: var(--brass);
+    font-weight: 500;
+    font-feature-settings: "tnum";
+}
+
+.toc-title {
+    color: var(--ink);
+}
+
+.toc-page {
+    width: 2em;
+    text-align: right;
+    color: var(--ink-mute);
+    font-feature-settings: "tnum";
+}
+
+/* H1-level entries: serif, larger, more presence */
+.toc-h1 td {
+    padding-top: 1em;
+    border-bottom: 1px solid var(--rule);
+}
+
+.toc-h1 .toc-title {
+    font-family: var(--serif);
+    font-size: 13pt;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: 0.005em;
+}
+
+.toc-h1 .toc-num {
+    font-family: var(--serif);
+    font-size: 13pt;
+    color: var(--oak);
+}
+
+/* H2-level entries: lighter, indented */
+.toc-h2 .toc-title {
+    padding-left: 1.2em;
+    color: var(--ink-soft);
+    font-weight: 300;
+}
+
+.toc-h2 .toc-num {
+    padding-left: 1.2em;
+    color: var(--ink-mute);
+    font-weight: 400;
+}
+
+/* ============================================================
+   REVISION HISTORY
+   ============================================================ */
+.revision-history h2,
+h1#revision-history,
+h2#revision-history {
+    margin-top: 2em;
+}

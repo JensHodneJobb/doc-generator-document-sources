@@ -1,0 +1,58 @@
+# ─── Example Document: Company Handbook ──────────────────────────────────
+# A simple example project to demonstrate the modular document generator.
+#
+# This project has only 4 short chapters and 2 variants, making it easy
+# to see how categories, tags, opt-blocks, and variables work.
+#
+# Usage:
+#   python buildModularDocument.py EXAMPLE-001 --list      # List variants
+#   python buildModularDocument.py EXAMPLE-001 --all       # Build both
+#   python buildModularDocument.py EXAMPLE-001 FULL --md   # Markdown only
+
+document:
+  cover_title: "Company Handbook"
+  subtitle: "Acme Corp"
+  version: "01"
+  date_format: "%B %d, %Y"
+
+  # Insert Table of Contents after the "about" chapter
+  toc_after_chapter: "about"
+
+  # Remove any table rows containing this text
+  remove_table_rows: []
+
+  revision_history:
+    - rev: "01"
+      reason: "Initial release"
+      date: "April 23, 2026"
+
+# ─── Variants ────────────────────────────────────────────────────────────
+# FULL  = Complete handbook for permanent employees
+# LITE  = Shorter version for contractors (skips benefits chapter)
+
+categories:
+  FULL:
+    doc_code: "EXAMPLE-001-FULL"
+    label: "Full Employee Handbook"
+    description: >
+      The complete handbook for permanent employees, including benefits
+      and all internal policies.
+    include_tags: [all, employee]
+    exclude_chapters: []
+    exclude_table_rows: []
+    variables:
+      audience: "Permanent Employee"
+      support_contact: "hr@acme.com"
+
+  LITE:
+    doc_code: "EXAMPLE-001-LITE"
+    label: "Contractor Handbook"
+    description: >
+      A shorter handbook for contractors. Excludes benefits information
+      and employee-only policies.
+    include_tags: [all, contractor]
+    exclude_chapters: [benefits]
+    exclude_table_rows: []
+    variables:
+      audience: "Contractor"
+      support_contact: "contractors@acme.com"
