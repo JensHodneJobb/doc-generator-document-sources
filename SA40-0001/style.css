@@ -7,6 +7,13 @@
     size: A4;
 }
 
+/* First page (cover) gets zero margins so the cyan banner can bleed
+   to the physical page edges. Header/footer for the cover pass are
+   already disabled in code. */
+@page :first {
+    margin: 0;
+}
+
 /* Avoid page break right after a heading */
 h1, h2, h3 {
     page-break-after: avoid;
@@ -27,63 +34,101 @@ body {
 }
 
 /* ── Cover page ── */
+/* The first @page has zero margins (see @page :first above) so this
+   .cover element naturally fills the entire physical A4 page. */
 .cover {
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ffffff;
     page-break-after: always;
-    padding-top: 0.5cm;
 }
 
-.cover-banner {
-    width: 100%;
-    max-height: 6cm;
-    object-fit: cover;
-    margin-bottom: 1.5cm;
+.cover-top-copyright {
+    position: absolute;
+    top: 0.8cm;
+    left: 2cm;
+    font-size: 8pt;
+    color: #888;
 }
 
 .cover-logo {
-    height: 1.8cm;
-    margin-bottom: 0.5cm;
+    position: absolute;
+    top: 1.6cm;
+    left: 2cm;
+    height: 1.5cm;
 }
 
-.cover-doc-code {
-    font-size: 14pt;
-    color: #666;
-    margin-top: 1cm;
-    margin-bottom: 0.2cm;
-    letter-spacing: 0.5pt;
+/* Title is constrained to ~half page width so long titles wrap onto
+   two lines, matching the original cover. */
+.cover-title-block {
+    position: absolute;
+    top: 14.5cm;
+    left: 2cm;
+    width: 11cm;
 }
 
 .cover-title {
-    font-size: 26pt;
+    font-size: 32pt;
     font-weight: bold;
     color: #0092BC;
-    margin-top: 0.3cm;
-    margin-bottom: 0.4cm;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin: 0 0 0.3cm 0;
 }
 
 .cover-subtitle {
     font-size: 16pt;
-    color: #444;
-    margin-bottom: 1.5cm;
+    font-weight: normal;
+    color: #6e6e6e;
+    margin: 0;
+    line-height: 1.2;
 }
 
-.cover-meta-table {
-    border-collapse: collapse;
+.cover-band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* Leave ~1.2 cm white strip below the band for the footer copyright. */
+    bottom: 1.2cm;
+    height: 5.2cm;
+    background-color: #0092BC;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.cover-band-text {
+    position: absolute;
+    left: 2cm;
+    right: 2cm;
+    bottom: 1.0cm;
+    color: #ffffff;
+}
+
+.cover-band-doc {
+    font-size: 18pt;
+    line-height: 1.25;
+    margin-bottom: 2pt;
+}
+
+.cover-band-rev {
     font-size: 11pt;
-    margin-top: 1cm;
+    line-height: 1.25;
 }
 
-.cover-meta-table td {
-    padding: 4pt 12pt 4pt 0;
-    border: none;
-    vertical-align: top;
+.cover-band-text strong {
+    font-weight: 700;
 }
 
-.cover-meta-table td:first-child {
-    font-weight: bold;
-    color: #555;
-    white-space: nowrap;
-    padding-right: 1cm;
+.cover-footer-copyright {
+    position: absolute;
+    bottom: 0.5cm;
+    left: 2cm;
+    font-size: 8pt;
+    color: #888;
 }
 
 /* ── Headings ── */
