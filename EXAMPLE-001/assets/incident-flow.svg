@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" font-family="Calibri, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#444"/>
+    </marker>
+  </defs>
+  <g stroke="#444" stroke-width="1.5" fill="#eef5ff">
+    <rect x="20"  y="70" width="120" height="60" rx="6"/>
+    <rect x="180" y="70" width="120" height="60" rx="6"/>
+    <rect x="340" y="70" width="120" height="60" rx="6"/>
+    <rect x="500" y="70" width="80"  height="60" rx="6"/>
+  </g>
+  <g fill="#222" text-anchor="middle">
+    <text x="80"  y="105">Observe hazard</text>
+    <text x="240" y="105">Make area safe</text>
+    <text x="400" y="105">Report (x1234)</text>
+    <text x="540" y="105">Investigate</text>
+  </g>
+  <g stroke="#444" stroke-width="1.5" fill="none" marker-end="url(#arr)">
+    <line x1="140" y1="100" x2="180" y2="100"/>
+    <line x1="300" y1="100" x2="340" y2="100"/>
+    <line x1="460" y1="100" x2="500" y2="100"/>
+  </g>
+</svg>

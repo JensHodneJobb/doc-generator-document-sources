@@ -8,9 +8,15 @@ tags: [employee]
 
 # Employee Benefits
 
-The following benefits are available to permanent employees.
+The following benefits are available to permanent employees. {{fig:benefits-overview}} shows the benefit families at a glance, and {{tbl:benefits}} lists the details.
+
+![Benefits overview](../assets/benefits-overview.svg)
+
+**{{figure:benefits-overview | Benefit families at a glance}}**
 
 ## Summary
+
+**{{table:benefits | Benefits summary}}**
 
 | Benefit | Details |
 |---------|---------|

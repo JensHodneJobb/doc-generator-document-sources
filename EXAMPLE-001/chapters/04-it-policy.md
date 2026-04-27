@@ -14,6 +14,14 @@ tags: [all]
 - Personal use is permitted within reason but must not interfere with work.
 - Do not install unauthorized software on company devices.
 
+## Network Access
+
+All remote access to company systems goes through the VPN gateway, as shown in {{fig:network}}. Multi-factor authentication is required for every session.
+
+![Network access](../assets/network-access.svg)
+
+**{{figure:network | Remote access topology}}**
+
 ## Passwords
 
 - Use a unique password of at least 12 characters.

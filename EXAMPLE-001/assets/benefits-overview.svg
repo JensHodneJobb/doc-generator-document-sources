@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" font-family="Calibri, Arial, sans-serif" font-size="13">
+  <g fill="#fff8e1" stroke="#b8860b" stroke-width="1.5">
+    <circle cx="240" cy="130" r="48"/>
+  </g>
+  <text x="240" y="135" text-anchor="middle" fill="#5d4500" font-weight="bold">Health</text>
+  <g fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5">
+    <circle cx="100" cy="60"  r="36"/>
+    <circle cx="380" cy="60"  r="36"/>
+    <circle cx="100" cy="200" r="36"/>
+    <circle cx="380" cy="200" r="36"/>
+  </g>
+  <g fill="#1b3d1b" text-anchor="middle">
+    <text x="100" y="64">PTO</text>
+    <text x="380" y="64">401(k)</text>
+    <text x="100" y="204">Parental</text>
+    <text x="380" y="204">Wellness</text>
+  </g>
+</svg>
