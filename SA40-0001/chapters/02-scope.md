@@ -33,7 +33,7 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH.
 
-**Compliance:** Products are compliant with the default standards noted in Table 4-1. ATEX or IECEx compliant – as applicable and reflected in the price.
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}. ATEX or IECEx compliant – as applicable and reflected in the price.
 <!-- /opt: O_Basic -->
 
 <!-- opt: O_DnvDrill -->
@@ -43,7 +43,7 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in Table 4-1.
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}.
 <!-- /opt: O_DnvDrill -->
 
 <!-- opt: O_DnvDrillN -->
@@ -53,7 +53,7 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Products are certified by DNV as stipulated in DNVGL-OS-E101 and relevant Norwegian regulations. Certification is priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in Table 4-1 and the following:
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}} and the following:
 - NORSOK R-002 for lifting equipment
 - NORSOK S-002 as applicable and reasonable
 - Norwegian FME regulations for electrical installations, if registered with Norwegian flag.
@@ -66,7 +66,7 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Products are certified by ABS as stipulated in "Guide for Classification of Drilling System" (CDS guide). Certification is priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in Table 4-1. And applicable parts of ABS MODU rules.
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}. And applicable parts of ABS MODU rules.
 <!-- /opt: O_AbsCds -->
 
 <!-- opt: O_NorFixed -->
@@ -76,19 +76,10 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Equipment shall be CE marked and HMH will issue a declaration of conformity or declaration of incorporation. Verification of lifting equipment according to NORSOK R-002. Extent of third party verification to be agreed with client and priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in Table 4-1 and the following:
-- CE marking (Ref. chapter 6)
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}} and the following:
+- CE marking (see the *CE Marking* chapter)
 - NORSOK R-002 for lifting equipment
 - NORSOK S-002 as applicable and reasonable for drilling products.
 - NORSOK D-001 as applicable for drilling products.
 <!-- /opt: O_NorFixed -->
 
-<!-- opt: OPT6 -->
-### Regulation Category: 6 – Other
-
-**Drilling Facility or Unit Category:** Other rules, regulations or requirements. Examples may include Canadian, Russian and UK regulations, or Lloyds, BV and other classification rules.
-
-**Activities / Deliveries:** HMH is a highly flexible vendor of drilling equipment and has long experience in adapting to different regulations and requirements around the world. Assessment of local regulations and certification to local regulations when applicable. Activities and deliveries required in regulations will be planned. HMH will consider the effect upon the equipment. Design changes may be required. Extent of third party to be agreed.
-
-**Compliance:** Products are compliant with the default standards noted in Table 4-1 and amendments shall be agreed with client or governing body.
-<!-- /opt: OPT6 -->

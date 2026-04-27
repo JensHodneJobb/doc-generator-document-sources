@@ -18,11 +18,11 @@ Design criteria given in this specification are basis for pricing, schedule and 
 
 ## Temperature
 
-The equipment is designed to operate at ambient temperatures given in Table 81 below, using lubricants and hydraulic fluids that suit the local seasonal climate, as advised by HMH.
+The equipment is designed to operate at ambient temperatures given in {{tbl:ambient}} below, using lubricants and hydraulic fluids that suit the local seasonal climate, as advised by HMH.
 
 Equipment in contact with drill fluids or well fluids is designed for fluid temperatures as provided.
 
-**Table 81 - Ambient and design temperature for drilling equipment**
+**{{table:ambient | Ambient and design temperature for drilling equipment}}**
 
 
 | Equipment | Ambient temperature (°C) | Drill or well fluids  equipment design temperature (°C) |
@@ -39,9 +39,9 @@ Equipment in contact with drill fluids or well fluids is designed for fluid temp
 
 ## Wind Loads
 
-If no wind information is specified in the contract, the wind speeds shown in Table 82 are used as a basis.
+If no wind information is specified in the contract, the wind speeds shown in {{tbl:wind}} are used as a basis.
 
-**Table 82 - Wind speed**
+**{{table:wind | Wind speed}}**
 
 
 | Condition | Case | U(10m,3s) = wind speed at 10 m above sea level, 3 sec gust | U(10, 3600s) = wind speed at 10 m above sea level, 1 hour mean |
@@ -58,9 +58,9 @@ The wind profiles and gust are following the formulas given in DNV-RP-C205.The a
 
 ## Rig Motion Loads
 
-If the rig motion accelerations are not given, the accelerations given in table 8-3 and 8-4 are used. All values are given as single amplitude and as a fraction of gravity (g = 9.81 m/s2).
+If the rig motion accelerations are not given, the accelerations given in {{tbl:rig-semi}} and {{tbl:rig-drill}} are used. All values are given as single amplitude and as a fraction of gravity (g = 9.81 m/s2).
 
-Table 8-3 Rig motions for semi-submersible
+**{{table:rig-semi | Rig motions for semi-submersible}}**
 
 | Motion condition* | Case | Horizontal acceleration | Horizontal acceleration | Heave |
 |---|---|---|---|---|
@@ -74,7 +74,7 @@ Table 8-3 Rig motions for semi-submersible
 | Damage | Accidental heel, 27 degrees | 0.45 g | NA | 0.89 g |
 
 
-Table 8-4 Rig motions for drill-ship
+**{{table:rig-drill | Rig motions for drill-ship}}**
 
 | Case | Horizontal acceleration | Horizontal acceleration | Heave |
 |---|---|---|---|

@@ -15,20 +15,13 @@ document:
   version: "10"
   date_format: "%B %d, %Y"
 
-  # DOCX styling: 'branded' (teal headers, zebra stripes) | 'bordered'
-  # (grey hairline borders, no fill — matches the original SA40-0001) | 'none'
-  docx_table_style: bordered
-  # Prepend a simple cover page to the DOCX (set false to skip)
-  docx_cover: true
-
   # TOC placement: insert Table of Contents after this chapter id.
   # Set to null or omit to disable automatic TOC.
   toc_after_chapter: "scope"
 
   # Rows to remove from any table (matched by cell text).
   # Useful for removing "catch-all" options that don't apply to generated variants.
-  remove_table_rows:
-    - "6 - Other"
+  remove_table_rows: []
 
   revision_history:
     - rev: "10"
@@ -122,8 +115,6 @@ categories:
                    norsok, norwegian, abs, ce, fixed]
     exclude_chapters: []
     exclude_table_rows: []
-    # Override document-level row removals so nothing is filtered out
-    remove_table_rows: []
     # Keep <!-- opt: OPTx --> blocks for every option in the output
     include_all_opt_blocks: true
     # Composite needs every chapter regardless of its front-matter categories list

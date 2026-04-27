@@ -10,7 +10,7 @@ tags: [all]
 
 The complete list of all standard references given in this document is presented in the table below. The standards apply as described in the text of this document. (Note that some are optional).
 
-**Table 191 - Reference documents**
+**{{table:ref-docs | Reference documents}}**
 
 
 | Document code | Title |

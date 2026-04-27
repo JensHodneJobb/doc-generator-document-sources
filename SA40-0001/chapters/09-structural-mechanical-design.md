@@ -17,7 +17,7 @@ The structural integrity of the equipment is checked with respect to the possibl
 - Fatigue
 - Generally, fatigue capacity is in accordance to DNV-RP-C203 Fatigue design of offshore steel structures.
 
-The structural integrity assessment of the equipment is based on load cases, load- and resistance-factors in accordance with the equipment specific standards listed in Table 19-1.
+The structural integrity assessment of the equipment is based on load cases, load- and resistance-factors in accordance with the equipment specific standards listed in {{tbl:main-refs}}.
 
 The most unfavorable position, direction and combination of loads are considered.
 

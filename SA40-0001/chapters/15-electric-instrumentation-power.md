@@ -11,11 +11,11 @@ tags: [all]
 ## General
 - Electrical installation within the equipment is performed according to IEC 61892-6, and IEC 60204-1 as applicable
 - If the above-mentioned electrical installation is located in hazardeous area, IEC 61892-7 and IEC 60079-14 are added.
-- Electric equipment, instruments and components located in hazardous area: Ref. Chapter 7.6 Hazardous Area Classification
+- Electric equipment, instruments and components located in hazardous area: see the *Hazardous Area Classification* section in *Safety*.
 - Tagging of components and wires inside cabinets and junction boxes according to HMH's SF01 - Coding Manual, that is based IEC 81346-2
-- Ingress protection (IP) is according to table 15-1. Degrees of protection are defined in IEC 61892-1 .
+- Ingress protection (IP) is according to {{tbl:ip-deg}}. Degrees of protection are defined in IEC 61892-1 .
 
-**Table 151 - Standard protection degree for drilling equipment**
+**{{table:ip-deg | Standard protection degree for drilling equipment}}**
 
 
 | Equipment | Minimum protection degree |

@@ -8,17 +8,17 @@ tags: [all]
 
 # Normative References
 
-Within the provisions of the principal regulations, the internationally recognized standards listed in table 4-1 are used as our main reference.
+Within the provisions of the principal regulations, the internationally recognized standards listed in {{tbl:main-refs}} are used as our main reference.
 
 Within the applicable area as noted in the table, our products shall meet all relevant requirements in these standards, unless otherwise detailed in the product specification provided with the bid.
 
-Standards of limited application is referred in the document. These are not listed in table 4-1, and apply as explained in the text. The complete overview of references is given in appendix A.
+Standards of limited application is referred in the document. These are not listed in {{tbl:main-refs}}, and apply as explained in the text. The complete overview of references is given in appendix A.
 
 For new rig projects, latest edition effective at time of tender shall apply, unless otherwise agreed.
 
 For replacement of equipment, rules and editions from the time of original build applies, however HMH may choose to use current editions as applicable. (E.g. for stocked items). Equipment upgrades may be subject to re-certification as applicable. Exceptions to be clarified.
 
-**Table 41 - Application areas for the main normative references.**
+**{{table:main-refs | Application areas for the main normative references.}}**
 
 
 | Standard document | Areas for application |

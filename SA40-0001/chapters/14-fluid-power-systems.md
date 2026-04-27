@@ -20,7 +20,7 @@ The fluid power interfaces towards the customer will be specified in the product
 
 The fluid power interface performance dataset is provided in the product specification.Typical examples are shown in the tables below.
 
-**Table 141 - Typical utility and interface requirement for hydraulic power supplied by the customer**
+**{{table:hydraulic-utility | Typical utility and interface requirement for hydraulic power supplied by the customer}}**
 
 
 | Description | Technical data |
@@ -44,7 +44,7 @@ The fluid power interface performance dataset is provided in the product specifi
 | Max permissible at hook up interface connection, leak oil @max leak oil flow | 2 bar (29 psi) |
 
 
-**Table 142 - Typical utility and interface requirements for pneumatic power supplied by the customer**
+**{{table:pneumatic-utility | Typical utility and interface requirements for pneumatic power supplied by the customer}}**
 
 
 | Description | Technical data |
@@ -57,7 +57,7 @@ The fluid power interface performance dataset is provided in the product specifi
 
 ## Operational Temperature
 
-Although the equipment is structurally and mechanically designed for operation at low temperatures as stated in chapter 8, a pre-heating  of the fluid system (typically done by circulation of the fluid and/or operating idle functions) may be required to ensure optimum viscosity and performance.
+Although the equipment is structurally and mechanically designed for operation at low temperatures as stated in the *Design Basis* chapter, a pre-heating  of the fluid system (typically done by circulation of the fluid and/or operating idle functions) may be required to ensure optimum viscosity and performance.
 
 Heating devices or heat tracing may be supplied for some systems as an option in order to reduce or eliminate the warm-up time.
 
@@ -70,7 +70,7 @@ If environmentally acceptable fluid is preferred by the customer, HMH may adapt 
 ## General Hydraulic Piping Systems
 - Small bore tubing systems (maximum diameter 42 mm) are corresponding with  the ISO 8434-1 connector standard.  Tubing and connectors  Material:  Stainless Steel.
 - Flexible rubber hoses and hose assemblies utilized in HMH fluid power systems are type approved by ABS and DNV for offshore and marine environment in hydraulic services at rated pressure.
-- For fluid power piping of larger sizes, see chapter 13 Piping.  Mud hoses according to API 7K may be used for  fluid power purposes in systems requiring  conductor diameters greater than 51 mm.
+- For fluid power piping of larger sizes, see the *Piping* chapter.  Mud hoses according to API 7K may be used for  fluid power purposes in systems requiring  conductor diameters greater than 51 mm.
 
 ## Low Pressure Pneumatic Piping Systems
 

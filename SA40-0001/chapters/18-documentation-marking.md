@@ -23,9 +23,9 @@ Documents that contain relevant interface information are issued for customer's 
 
 Other documents, not relevant for interface, are issued for information only.
 
-Typical content is shown in table 18-1
+Typical content is shown in {{tbl:smdl}}
 
-**Table 181 - SMDL for drilling equipment – typical content**
+**{{table:smdl | SMDL for drilling equipment – typical content}}**
 
 
 | Description of document | Issued for |

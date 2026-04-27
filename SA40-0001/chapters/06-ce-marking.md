@@ -14,7 +14,7 @@ tags: [all]
 - Technical files and declarations of components are kept by HMH or notified body as mandated by the relevant EU directive.
 - Partly complete equipment is not CE marked. A declaration of incorporation is issued as mandated in the relevant EU directive.
 
-The following EU directives are included, when relevant:
+### The following EU directives are included, when relevant:
 - Equipment for explosive atmospheres 2014/34/EU (ATEX)
 - Machinery Directive 2006/42/EC (MD)
 - Pressure Equipment Directive 2014/68/ EU (PED)

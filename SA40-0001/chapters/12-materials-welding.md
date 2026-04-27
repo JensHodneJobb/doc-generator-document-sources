@@ -9,12 +9,12 @@ tags: [all]
 # Materials and Welding
 
 ## Load Bearing Materials
-- Materials for the main load bearing mechanical, structural and pressurized parts of the equipment are selected within the provisions of the principal design codes and standards listed in table 4-1.
+- Materials for the main load bearing mechanical, structural and pressurized parts of the equipment are selected within the provisions of the principal design codes and standards listed in {{tbl:main-refs}}.
 - Impact toughness is tested for the lowest design temperature, as stipulated in the applicable code. Secondary steel is normally not impact tested.
 
 ## Other Materials
 
-**Table 121  Typical materials for miscellaneous applications.  Not governed by design code.**
+**{{table:misc-mat | Typical materials for miscellaneous applications.  Not governed by design code.}}**
 
 
 | Equipment | Material |
@@ -51,7 +51,7 @@ Where alternatives are given, the selection is at HMH's discretion, unless other
 
 ## Welding
 - Structural and mechanical components of drilling equipment are welded according to DNV-OS-E101 and normative references given therein.
-- For products with API monogram, any additional requirements given in the applicable API product specification shall also be met (table 4-1).
+- For products with API monogram, any additional requirements given in the applicable API product specification shall also be met ({{tbl:main-refs}}).
 - Weld procedures are tested and qualified to verify mechanical properties, including low temperature toughness. The qualification is subject to survey by DNV or ABS, when mandatory, and otherwise by workshop's certified welding engineer or HMH
 - Procedures shall be valid as long as they meet applicable norms, and are not re-qualified for a project.
 - Nondestructive examination and testing is performed to the extent and standards as stipulated by the design code and DNV and ABS
