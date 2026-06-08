@@ -16,8 +16,8 @@ The complete list of all standard references given in this document is presented
 | Document code | Title |
 |---|---|
 | ABS: CDS Guide | Guide for Classification of Drilling Systems |  <!-- row-tag: abs-cds -->
-| ABS: ISQM Guide | Guide for Integrated Software Quality Management |  <!-- row-tag: abs-isqm -->
-| ABS: MODU | Mobile Offshore Drilling Units, Part 4- Machinery and Systems |  <!-- row-tag: abs-modu -->
+| ABS: ISQM Guide | Guide for Integrated Software Quality Management |  <!-- row-tag: abs-cds -->
+| ABS: MODU | Mobile Offshore Drilling Units, Part 4- Machinery and Systems |    <!-- row-tag: abs-cds -->
 | API Bulletin 2INT-MET | Interim Guidance on Hurricane Conditions in the Gulf of Mexico |
 | API RP 16Q | Recommended Practice for Design, Selection, Operation and Maintenance of Marine Driller Rising Systems |
 | API RP 17B | Flexible Pipe, Design and operation of subsea production systems |
@@ -35,7 +35,7 @@ The complete list of all standard references given in this document is presented
 | API STD 53 | Blowout Prevention Equipment Systems for Drilling Wells |
 | ASME B31.3 | Process Piping. |
 | ASME VIII BPVC | ASME Boiler and Pressure Vessel Code |
-| ATEX 2014/34/EU 2014/34/EU | ATEX Directive |
+| ATEX 2014/34/EU 2014/34/EU | ATEX Directive | <!-- row-tag: ce -->
 | DEF Stan 91-110 | Defense standard. Wear performance test for aqueous polyglycol based hydraulic fluids |
 | DNV-OS-D203 | Integrated Software Dependent Systems |
 | DNV-OS-E101 | Drilling Facilities |
@@ -51,11 +51,10 @@ The complete list of all standard references given in this document is presented
 | EN 13586 | Access – Cranes |
 | EN 1993-1 | Eurocode 3- Structural Design |
 | FEM | Rules for the design of hoisting appliances |
-| FME | Regulation for maritime electrical installation- Directorate of civil protection, Norway |  <!-- row-tag: fme -->
+| FME | Regulation for maritime electrical installation- Directorate of civil protection, Norway |  <!-- row-tag: psa -->
 | IEEE 1580 | IEEE Recommended Practice for Marine Cable for Use on Shipboard and Fixed or Floating Facilities |
 | IEC 60079 | Explosive atmospheres. Equipment.  (Relevant parts: 1,7,10,11,14 and15) |
 | IEC 60204-1 | Safety of machinery-Electrical equipment of machines |
-| IEC 60300 | Dependability management part 3-11 - Application guide  RCM |
 | IEC 60331 | Tests for electric cables under fire conditions - Circuit integrity |
 | IEC 60332 | Tests on electric and optical fiber cables under fire conditions. |
 | IEC 60445 | Identification of equipment terminals, conductor terminations and conductors |
@@ -91,20 +90,18 @@ The complete list of all standard references given in this document is presented
 | ISO 8573-1 | Compressed air. Part 1: Contaminants and purity classes |
 | ISO 9614-2 | Acoustics – Determination of Sound Power level and Noise Source Using Sound Intensity – Part 2: Measurement by Scanning |
 | ISO/IEC 81346 | Industrial systems, installations and equipment and industrial products — Structuring principles and reference design... |
-| LVD 2014/35/EU | Low Voltage Directive |
-| MD 2006/42/EC | Machinery Directive 2006/42/EC |
+| LVD 2014/35/EU | Low Voltage Directive | <!-- row-tag: ce -->
+| MD 2006/42/EC | Machinery Directive 2006/42/EC | <!-- row-tag: ce -->
 | MIL-H-22 72C | Military specification. Hydraulic fluid, catapult. NATO code no. H-579 |
 | NACE MR 0175  ISO 15156 | Petroleum and natural gas industries. Materials for use in H2S-containing Environments in oil and gas production |
 | NEK HD 308 S2 | Identification of cores in cables and flexible cords |
 | NEK TS 606 | Cables for offshore installations |
-| NORSOK D-001 | Drilling Facilities |  <!-- row-tag: norsok-d001 -->
-| NORSOK R-002 | Lifting Equipment |  <!-- row-tag: norsok-r002 -->
-| NORSOK S-002 | Working Environment |  <!-- row-tag: norsok-s002 -->
+| NORSOK D-001 | Drilling Facilities |  <!-- row-tag: psa -->
+| NORSOK R-002 | Lifting Equipment |  <!-- row-tag: psa -->
+| NORSOK S-002 | Working Environment |  <!-- row-tag: psa -->
 | NORSOK Z-006 | Preservation |
 | NORSOK Z-018 | Supplier's documentation of equipment |
-| PED 2014 /68/EU | Pressure Equipment Directive 2014/68/EU (PED) |
+| PED 2014 /68/EU | Pressure Equipment Directive 2014/68/EU (PED) | <!-- row-tag: ce -->
 | PSA | Facilities Regulations |  <!-- row-tag: psa -->
-| SAE JA1011 | Evaluation Criteria for RCM Process |
-| SAE JA1012 | A Guide to the Reliability Centered Maintenance (RCM) Standard |
 | SFS Handbook. Ed.3 | Best Practice – Dropped Object Prevention. Working Together for Safety. |
 

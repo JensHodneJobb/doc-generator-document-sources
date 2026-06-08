@@ -40,7 +40,7 @@ For replacement of equipment, rules and editions from the time of original build
 | API Standard 53 | Well Control Equipment Systems for Drilling Wells |
 | ASME B31.3 | Piping design, fabrication and testing. |
 | ASME BPVC section VIII | Pressure design and analysis, risers and pressure vessels. |
-| DNVGL-OS- E101 Drilling Facilities | Technical requirements are implemented by default for all equipment as relevant. Certification when selected |<!-- row-tag: O_DnvDrill --> <!-- row-tag: O_DnvDrillN -->
+| DNVGL-OS- E101 Drilling Facilities | Technical requirements are implemented by default for all equipment as relevant. Certification when selected |<!-- row-tag: dnv-drill -->
 | Eurocode 3 | Structural design |
 | IEC 60079 | Explosive atmospheres. Equipment. Relevant parts |
 | IEC 61131-3 | Programmable controllers. Part 3: Programming languages |
