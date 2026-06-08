@@ -49,6 +49,5 @@ tags: [all]
 
 ## Cyber security
 
-HMH's cyber security program is based on IEC-62443-3-3 and  IEC 62443-2-4.
-
-Security Level 1 is standard for our cyber security product offering. Higher security levels can be delivered upon request.
+HMH’s cyber security portfolio "secureNet" is based on IEC-62443-3-3.
+Security Level 1 is standard for new equipment. Higher security levels can be delivered upon request. 

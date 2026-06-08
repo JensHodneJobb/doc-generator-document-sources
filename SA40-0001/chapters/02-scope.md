@@ -18,6 +18,7 @@ With reference to the HMH product catalogue, the following groups of products ar
 - Risers
 
 Not included in this specification: (Not exhaustive)
+- Blow Out Preventer with releated products
 - Products intended for land-based drilling,
 - Products for oil and gas producing systems
 - Products of other brands or make than HMH
@@ -43,7 +44,9 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}.
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}} and the following:
+- DNVGL-OS- E101 Drilling Facilities
+
 <!-- /opt: O_DnvDrill -->
 
 <!-- opt: O_DnvDrillN -->
@@ -54,8 +57,9 @@ Not included in this specification: (Not exhaustive)
 **Activities / Deliveries:** Products are certified by DNV as stipulated in DNVGL-OS-E101 and relevant Norwegian regulations. Certification is priced separately.
 
 **Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}} and the following:
+- DNVGL-OS- E101 Drilling Facilities
 - NORSOK R-002 for lifting equipment
-- NORSOK S-002 as applicable and reasonable
+- NORSOK S-002 as applicable and reasonable for drilling products
 - Norwegian FME regulations for electrical installations, if registered with Norwegian flag.
 <!-- /opt: O_DnvDrillN -->
 
@@ -66,7 +70,9 @@ Not included in this specification: (Not exhaustive)
 
 **Activities / Deliveries:** Products are certified by ABS as stipulated in "Guide for Classification of Drilling System" (CDS guide). Certification is priced separately.
 
-**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}. And applicable parts of ABS MODU rules.
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}} and:
+- ABS Guide for Classification of Drilling System (CDS)
+- Applicable parts of ABS MODU rules
 <!-- /opt: O_AbsCds -->
 
 <!-- opt: O_NorFixed -->

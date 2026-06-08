@@ -52,6 +52,7 @@ The complete list of all standard references given in this document is presented
 | EN 1993-1 | Eurocode 3- Structural Design |
 | FEM | Rules for the design of hoisting appliances |
 | FME | Regulation for maritime electrical installation- Directorate of civil protection, Norway |  <!-- row-tag: fme -->
+| IEEE 1580 | IEEE Recommended Practice for Marine Cable for Use on Shipboard and Fixed or Floating Facilities |
 | IEC 60079 | Explosive atmospheres. Equipment.  (Relevant parts: 1,7,10,11,14 and15) |
 | IEC 60204-1 | Safety of machinery-Electrical equipment of machines |
 | IEC 60300 | Dependability management part 3-11 - Application guide  RCM |

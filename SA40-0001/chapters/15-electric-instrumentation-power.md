@@ -41,7 +41,7 @@ The electrical cabinets will contain PLC's, servers, remote I/O's, network, powe
 Field cables used in the equipment manufactured by HMH are:
 - Flame retardant according to applicable parts of IEC 60332
 - Fire resistant when required by rules and function according to applicable parts of IEC 60331
-- Resistant to oil and drilling fluids according to NEK TS 606
+- Resistant to oil and drilling fluids according to NEK TS 606 or IEEE 1580
 - Armored or braided, as selected by HMH.
 - Low smoke and halogen free
 
