@@ -2,7 +2,7 @@
 id: normative-references
 title: "Normative References"
 chapter: 4
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

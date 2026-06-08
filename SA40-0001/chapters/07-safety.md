@@ -2,7 +2,7 @@
 id: safety
 title: "Safety"
 chapter: 7
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

@@ -2,7 +2,7 @@
 id: documentation-marking
 title: "Documentation and Marking of Equipment"
 chapter: 18
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

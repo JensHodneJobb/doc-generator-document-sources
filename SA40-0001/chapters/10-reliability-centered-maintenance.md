@@ -2,7 +2,7 @@
 id: reliability-centered-maintenance
 title: "Reliability Centered Maintenance"
 chapter: 10
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

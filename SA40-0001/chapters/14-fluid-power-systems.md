@@ -2,7 +2,7 @@
 id: fluid-power-systems
 title: "Fluid Power Systems"
 chapter: 14
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

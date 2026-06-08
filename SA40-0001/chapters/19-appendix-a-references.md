@@ -2,7 +2,7 @@
 id: appendix-a-references
 title: "Appendix A – Reference Documents"
 chapter: 19
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 
@@ -17,7 +17,7 @@ The complete list of all standard references given in this document is presented
 |---|---|
 | ABS: CDS Guide | Guide for Classification of Drilling Systems |  <!-- row-tag: abs-cds -->
 | ABS: ISQM Guide | Guide for Integrated Software Quality Management |  <!-- row-tag: abs-cds -->
-| ABS: MODU | Mobile Offshore Drilling Units, Part 4- Machinery and Systems |    <!-- row-tag: abs-cds -->
+| ABS: MODU | Mobile Offshore Drilling Units, Part 4- Machinery and Systems |    <!-- row-tag: abs -->
 | API Bulletin 2INT-MET | Interim Guidance on Hurricane Conditions in the Gulf of Mexico |
 | API RP 16Q | Recommended Practice for Design, Selection, Operation and Maintenance of Marine Driller Rising Systems |
 | API RP 17B | Flexible Pipe, Design and operation of subsea production systems |

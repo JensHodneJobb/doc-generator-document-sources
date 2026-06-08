@@ -2,7 +2,7 @@
 id: scope
 title: "Scope"
 chapter: 2
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 
@@ -28,7 +28,7 @@ Not included in this specification: (Not exhaustive)
 ## Principal Regulations
 
 <!-- opt: O_Basic -->
-### Regulation Category: 1 – Basic
+### Regulation Category: Basic
 
 **Drilling Facility or Unit Category:** Facilities with no special territorial requirements, or mobile units with a basic maritime class notation, not including the drilling plant.
 
@@ -38,7 +38,7 @@ Not included in this specification: (Not exhaustive)
 <!-- /opt: O_Basic -->
 
 <!-- opt: O_DnvDrill -->
-### Regulation Category: 2 – DNV with DRILL notation
+### Regulation Category: DNV with DRILL notation
 
 **Drilling Facility or Unit Category:** Mobile unit where certification of the drilling plant by DNV is required. Also including well intervention units with WELL notation.
 
@@ -50,7 +50,7 @@ Not included in this specification: (Not exhaustive)
 <!-- /opt: O_DnvDrill -->
 
 <!-- opt: O_DnvDrillN -->
-### Regulation Category: 3 – DNV with DRILL-N notation
+### Regulation Category: DNV with DRILL-N notation
 
 **Drilling Facility or Unit Category:** Mobile unit registered in a national shipping register and dedicated for operating on the Norwegian Continental Shelf and where certification of the drilling plant is required. Also including well intervention units with WELL-N notation.
 
@@ -63,8 +63,19 @@ Not included in this specification: (Not exhaustive)
 - Norwegian FME regulations for electrical installations, if registered with Norwegian flag.
 <!-- /opt: O_DnvDrillN -->
 
+<!-- opt: O_Abs -->
+### Regulation Category: ABS Basic
+
+**Drilling Facility or Unit Category:** Mobile unit certified by American Bureau of Shipping without  drilling notation.
+
+**Activities / Deliveries:** Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH.
+
+**Compliance:** Products are compliant with the default standards noted in {{tbl:main-refs}}. ATEX or IECEx compliant – as applicable and reflected in the price as well as applicable parts of ABS MODU rules
+<!-- /opt: O_Abs -->
+
+
 <!-- opt: O_AbsCds -->
-### Regulation Category: 4 – ABS with ✠CDS notation
+### Regulation Category: ABS with ✠CDS notation
 
 **Drilling Facility or Unit Category:** Mobile unit where certification of the drilling plant by American Bureau of Shipping is required.
 
@@ -74,6 +85,7 @@ Not included in this specification: (Not exhaustive)
 - ABS Guide for Classification of Drilling System (CDS)
 - Applicable parts of ABS MODU rules
 <!-- /opt: O_AbsCds -->
+
 
 <!-- opt: O_NorFixed -->
 ### Regulation Category: 5 – Norwegian Fixed Installations

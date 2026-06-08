@@ -2,7 +2,7 @@
 id: electric-instrumentation-power
 title: "Electric Instrumentation and Power Systems"
 chapter: 15
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 

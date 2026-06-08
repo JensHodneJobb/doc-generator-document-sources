@@ -2,7 +2,7 @@
 id: structural-mechanical-design
 title: "Structural and Mechanical Design"
 chapter: 9
-categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_NorFixed]
+categories: [O_Basic, O_DnvDrill, O_DnvDrillN, O_AbsCds, O_Abs, O_NorFixed]
 tags: [all]
 ---
 
