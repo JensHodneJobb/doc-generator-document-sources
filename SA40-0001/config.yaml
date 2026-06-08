@@ -45,7 +45,7 @@ categories:
       Facilities with no special territorial requirements, or mobile units
       with a basic maritime class notation, not including the drilling plant.
     include_tags: [all, basic]
-    exclude_chapters: [ce-marking, reliability-centered-maintenance]
+    exclude_chapters: [reliability-centered-maintenance]
     variables:
       certification_body: "HMH (Works Certificate)"
       certification_note: "Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH"
@@ -57,7 +57,7 @@ categories:
       Mobile unit where certification of the drilling plant by DNV is required.
       Also including well intervention units with WELL notation.
     include_tags: [all, dnv-drill]
-    exclude_chapters: [ce-marking, reliability-centered-maintenance]
+    exclude_chapters: [reliability-centered-maintenance]
     variables:
       certification_body: "DNV"
       certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately."
@@ -69,7 +69,7 @@ categories:
       Mobile unit registered in a national shipping register and dedicated
       for operating on the Norwegian Continental Shelf.
     include_tags: [all, dnv-drill-n, dnv-drill, psa]
-    exclude_chapters: [ce-marking, reliability-centered-maintenance]
+    exclude_chapters: [reliability-centered-maintenance]
     variables:
       certification_body: "DNV"
       certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101 and relevant Norwegian regulations. Certification is priced separately."
@@ -81,7 +81,7 @@ categories:
       Mobile unit where certification of the drilling plant by American Bureau
       of Shipping is required.
     include_tags: [all, abs]
-    exclude_chapters: [ce-marking, reliability-centered-maintenance]
+    exclude_chapters: [reliability-centered-maintenance]
     variables:
       certification_body: "ABS"
       certification_note: "Products comply to ABS MODU rules as applicable"
@@ -93,7 +93,7 @@ categories:
       Mobile unit where certification of the drilling plant by American Bureau
       of Shipping is required.
     include_tags: [all, abs, abs-cds]
-    exclude_chapters: [ce-marking, reliability-centered-maintenance]
+    exclude_chapters: [reliability-centered-maintenance]
     variables:
       certification_body: "ABS"
       certification_note: "Products are certified by ABS as stipulated in the CDS Guide. Certification is priced separately."

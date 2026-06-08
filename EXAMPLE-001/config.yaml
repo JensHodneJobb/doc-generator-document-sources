@@ -50,7 +50,7 @@ categories:
       A shorter handbook for contractors. Excludes benefits information
       and employee-only policies.
     include_tags: [all, contractor]
-    exclude_chapters: [benefits]
+    exclude_chapters: []
     variables:
       audience: "Contractor"
       support_contact: "contractors@acme.com"
