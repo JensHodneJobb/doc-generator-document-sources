@@ -1,0 +1,90 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "docCategory",
+      "type": "promptString",
+      "description": "Category (for example: VARIANT_A)",
+      "default": "VARIANT_A"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "DocGen: List Categories (Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "--list"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen: Build One Variant (PDF, Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "${input:docCategory}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen: Build All Variants (Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "--all"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen: Markdown Only (Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "${input:docCategory}",
+        "--md"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen: Markdown + DOCX (No PDF, Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "${input:docCategory}",
+        "--md",
+        "--docx"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

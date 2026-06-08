@@ -44,7 +44,7 @@ categories:
     description: >
       Facilities with no special territorial requirements, or mobile units
       with a basic maritime class notation, not including the drilling plant.
-    include_tags: [all, basic, atex-iecex]
+    include_tags: [all, basic]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
     exclude_table_rows: [abs-cds, psa, dnv-drill, ce]
     variables:
@@ -57,7 +57,7 @@ categories:
     description: >
       Mobile unit where certification of the drilling plant by DNV is required.
       Also including well intervention units with WELL notation.
-    include_tags: [all, dnv, dnv-drill]
+    include_tags: [all, dnv-drill]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
     exclude_table_rows: [abs-cds, psa, ce]
     variables:
@@ -70,7 +70,7 @@ categories:
     description: >
       Mobile unit registered in a national shipping register and dedicated
       for operating on the Norwegian Continental Shelf.
-    include_tags: [all, dnv, dnv-drill-n, norsok, norwegian]
+    include_tags: [all, dnv-drill-n, psa]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
     exclude_table_rows: [abs-cds, ce]
     variables:
@@ -96,7 +96,7 @@ categories:
     description: >
       Drilling facilities permanently placed at the Norwegian continental shelf
       (including buoyant vessels at permanent position).
-    include_tags: [all, ce, norsok, norwegian, fixed]
+    include_tags: [all, ce, psa]
     exclude_chapters: [reliability-centered-maintenance]
     exclude_table_rows: [abs-cds]
     variables:
@@ -111,8 +111,7 @@ categories:
       and every table row from all O_Basic-O_NorFixed variants. Intended for internal
       review and side-by-side comparison, not for customer delivery.
     # Union of all tags used across O_Basic-O_NorFixed
-    include_tags: [all, basic, atex-iecex, dnv, dnv-drill, dnv-drill-n,
-                   norsok, norwegian, abs, ce, fixed]
+    include_tags: [all, basic, dnv-drill, dnv-drill-n, psa, abs, ce]
     exclude_chapters: []
     exclude_table_rows: []
     # Keep <!-- opt: OPTx --> blocks for every option in the output
