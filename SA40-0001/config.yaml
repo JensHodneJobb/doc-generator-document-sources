@@ -46,7 +46,6 @@ categories:
       with a basic maritime class notation, not including the drilling plant.
     include_tags: [all, basic]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
-    exclude_table_rows: [abs-cds, psa, dnv-drill, ce]
     variables:
       certification_body: "HMH (Works Certificate)"
       certification_note: "Conformity is declared in Affidavit of Compliance (Works Certificate) issued by HMH"
@@ -59,7 +58,6 @@ categories:
       Also including well intervention units with WELL notation.
     include_tags: [all, dnv-drill]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
-    exclude_table_rows: [abs-cds, psa, ce]
     variables:
       certification_body: "DNV"
       certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101. Certification is priced separately."
@@ -70,9 +68,8 @@ categories:
     description: >
       Mobile unit registered in a national shipping register and dedicated
       for operating on the Norwegian Continental Shelf.
-    include_tags: [all, dnv-drill-n, psa]
+    include_tags: [all, dnv-drill-n, dnv-drill, psa]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
-    exclude_table_rows: [abs-cds, ce]
     variables:
       certification_body: "DNV"
       certification_note: "Products are certified by DNV as stipulated in DNVGL-OS-E101 and relevant Norwegian regulations. Certification is priced separately."
@@ -83,9 +80,8 @@ categories:
     description: >
       Mobile unit where certification of the drilling plant by American Bureau
       of Shipping is required.
-    include_tags: [all, abs]
+    include_tags: [all, abs, abs-cds]
     exclude_chapters: [ce-marking, reliability-centered-maintenance]
-    exclude_table_rows: [psa, dnv-drill, ce]
     variables:
       certification_body: "ABS"
       certification_note: "Products are certified by ABS as stipulated in the CDS Guide. Certification is priced separately."
@@ -96,9 +92,8 @@ categories:
     description: >
       Drilling facilities permanently placed at the Norwegian continental shelf
       (including buoyant vessels at permanent position).
-    include_tags: [all, ce, psa]
+    include_tags: [all, ce, psa, dnv-drill]
     exclude_chapters: [reliability-centered-maintenance]
-    exclude_table_rows: [abs-cds]
     variables:
       certification_body: "CE / Notified Body"
       certification_note: "Equipment shall be CE marked and HMH will issue a declaration of conformity or declaration of incorporation."
@@ -110,10 +105,9 @@ categories:
       Reference / review variant containing every option block, every chapter
       and every table row from all O_Basic-O_NorFixed variants. Intended for internal
       review and side-by-side comparison, not for customer delivery.
-    # Union of all tags used across O_Basic-O_NorFixed
-    include_tags: [all, basic, dnv-drill, dnv-drill-n, psa, abs, ce]
+    # Union of all tags used across O_Basic-O_NorFixed, including row tags
+    include_tags: [all, basic, dnv-drill, dnv-drill-n, psa, abs, abs-cds, ce]
     exclude_chapters: []
-    exclude_table_rows: []
     # Keep <!-- opt: OPTx --> blocks for every option in the output
     include_all_opt_blocks: true
     # Composite needs every chapter regardless of its front-matter categories list

@@ -37,9 +37,8 @@ categories:
     description: >
       The complete handbook for permanent employees, including benefits
       and all internal policies.
-    include_tags: [all, employee]
+    include_tags: [all, employee, employee-only]
     exclude_chapters: []
-    exclude_table_rows: []
     variables:
       audience: "Permanent Employee"
       support_contact: "hr@acme.com"
@@ -52,7 +51,6 @@ categories:
       and employee-only policies.
     include_tags: [all, contractor]
     exclude_chapters: [benefits]
-    exclude_table_rows: []
     variables:
       audience: "Contractor"
       support_contact: "contractors@acme.com"
