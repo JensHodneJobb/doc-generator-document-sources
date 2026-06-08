@@ -47,6 +47,6 @@ For replacement of equipment, rules and editions from the time of original build
 | IEC 61158 | Industrial communications networks. Fieldbus specification |
 | IEC 61892 | Mobile and fixed offshore units. Electrical installations |
 | NACE MR 0175/ISO 15156 | H2S corrosion. Risers, Choke and Kill, Cement and Standpipe manifold |
-| NORSOK Z-006 | Preservation |
-| NORSOK Z-018 | Documentation of equipment |
+| NORSOK Z-006 | Preservation | <!-- row-tag: psa -->
+| NORSOK Z-018 | Documentation of equipment | <!-- row-tag: psa -->
 

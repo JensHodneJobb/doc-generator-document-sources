@@ -99,8 +99,8 @@ The complete list of all standard references given in this document is presented
 | NORSOK D-001 | Drilling Facilities |  <!-- row-tag: psa -->
 | NORSOK R-002 | Lifting Equipment |  <!-- row-tag: psa -->
 | NORSOK S-002 | Working Environment |  <!-- row-tag: psa -->
-| NORSOK Z-006 | Preservation |
-| NORSOK Z-018 | Supplier's documentation of equipment |
+| NORSOK Z-006 | Preservation | 
+| NORSOK Z-018 | Supplier's documentation of equipment | 
 | PED 2014 /68/EU | Pressure Equipment Directive 2014/68/EU (PED) | <!-- row-tag: ce -->
 | PSA | Facilities Regulations |  <!-- row-tag: psa -->
 | SFS Handbook. Ed.3 | Best Practice – Dropped Object Prevention. Working Together for Safety. |
