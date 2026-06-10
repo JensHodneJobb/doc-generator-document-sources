@@ -18,6 +18,7 @@ Each top-level folder is a single document project:
 ## Current documents
 
 - `EXAMPLE-001/` — Example document
+- `EXAMPLE-002-SIMPLE-PDF/` — Minimal single-Markdown-to-PDF example
 - `SA40-0001/` — SA40-0001 specification
 
 ## Usage
