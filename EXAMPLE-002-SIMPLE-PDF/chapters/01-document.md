@@ -74,6 +74,10 @@ Soon the team had a steady cadence: write, review, publish, without formatting f
 
 Three months later, Daniel had hours back each week.
 
+![Weekly time returned trend](../assets/time-returned-graph.svg){.figure-left}
+*{{figure:time-returned-graph | Weekly hours returned after adopting the generator rose steadily over three months.}}*
+{:.figure-caption .figure-left-caption}
+
 He used that time to interview stakeholders, sharpen arguments, and mentor a junior analyst.
 
 That is the practical value of this document generator: it moves effort from mechanics to thinking.

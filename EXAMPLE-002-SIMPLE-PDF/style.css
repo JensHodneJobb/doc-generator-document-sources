@@ -191,6 +191,7 @@ img {
 .figure-caption {
     width: 85%;
     margin: 0 auto 0.45cm auto;
+    clear: both;
     text-align: center;
     font-size: 9.5pt;
     color: #4b5563;
@@ -215,38 +216,82 @@ img {
 
 .figure-left {
     float: left;
-    width: 48%;
-    max-width: 48%;
+    display: block;
+    width: 50%;
+    max-width: 50%;
     max-height: 11cm;
     margin: 0.15cm 0.6cm 0.08cm 0;
 }
 
 .figure-left-caption {
     float: left;
-    width: 48%;
-    max-width: 48%;
+    display: block;
+    width: 50%;
+    max-width: 50%;
     margin: 0 0.6cm 0.35cm 0;
+    clear: none;
     text-align: center;
     font-size: 9.5pt;
     color: #4b5563;
+}
+
+.figure-left-caption > img.figure-left {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0.08cm 0;
+}
+
+.figure-left-caption > em {
+    display: block;
 }
 
 .figure-right {
     float: right;
-    width: 48%;
-    max-width: 48%;
+    display: block;
+    width: 50%;
+    max-width: 50%;
     max-height: 11cm;
     margin: 0.15cm 0 0.08cm 0.6cm;
 }
 
+.figure-right img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0 auto;
+}
+
 .figure-right-caption {
     float: right;
-    width: 48%;
-    max-width: 48%;
+    display: block;
+    width: 50%;
+    max-width: 50%;
     margin: 0 0 0.35cm 0.6cm;
+    clear: none;
     text-align: center;
     font-size: 9.5pt;
     color: #4b5563;
+}
+
+.figure-right-caption > img.figure-right {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0.08cm 0;
+}
+
+.figure-right-caption > em {
+    display: block;
 }
 
 /* ── Tables ── */
