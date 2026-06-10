@@ -147,6 +147,7 @@ h2 {
     color: #222;
     margin-top: 0.8cm;
     margin-bottom: 0.3cm;
+    clear: both;
 }
 
 h3 {
@@ -154,6 +155,7 @@ h3 {
     color: #0092BC;
     margin-top: 0.6cm;
     margin-bottom: 0.2cm;
+    clear: both;
 }
 
 /* ── Body text ── */
@@ -182,8 +184,114 @@ img {
     height: auto;
     max-height: 7.5cm;
     object-fit: contain;
-    margin: 0.25cm auto 0.45cm auto;
+    margin: 0.25cm auto 0.15cm auto;
     page-break-inside: avoid;
+}
+
+.figure-caption {
+    width: 85%;
+    margin: 0 auto 0.45cm auto;
+    clear: both;
+    text-align: center;
+    font-size: 9.5pt;
+    color: #4b5563;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+.figure-full {
+    width: 100%;
+    max-width: 100%;
+    max-height: 9.5cm;
+    margin: 0.25cm 0 0.08cm 0;
+}
+
+.figure-full-caption {
+    width: 100%;
+    margin: 0 0 0.45cm 0;
+    text-align: center;
+    font-size: 9.5pt;
+    color: #4b5563;
+}
+
+.figure-left {
+    float: left;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    max-height: 11cm;
+    margin: 0.15cm 0.6cm 0.08cm 0;
+}
+
+.figure-left-caption {
+    float: left;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 0.6cm 0.35cm 0;
+    clear: none;
+    text-align: center;
+    font-size: 9.5pt;
+    color: #4b5563;
+}
+
+.figure-left-caption > img.figure-left {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0.08cm 0;
+}
+
+.figure-left-caption > em {
+    display: block;
+}
+
+.figure-right {
+    float: right;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    max-height: 11cm;
+    margin: 0.15cm 0 0.08cm 0.6cm;
+}
+
+.figure-right img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0 auto;
+}
+
+.figure-right-caption {
+    float: right;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 0 0.35cm 0.6cm;
+    clear: none;
+    text-align: center;
+    font-size: 9.5pt;
+    color: #4b5563;
+}
+
+.figure-right-caption > img.figure-right {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 11cm;
+    object-fit: contain;
+    margin: 0 0 0.08cm 0;
+}
+
+.figure-right-caption > em {
+    display: block;
 }
 
 /* ── Tables ── */
