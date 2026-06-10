@@ -6,9 +6,6 @@
 
 ## Monday Morning
 
-![Monday Morning illustration](../assets/chapter-monday-morning.svg)
-*{{figure:monday-overhead | Monday workflow clutter: formatting overhead dominates writing time.}}*
-
 On Monday, Daniel opened his weekly brief with the same hope: this one would be fast.
 
 By afternoon, he was still fighting the file, not writing.
@@ -21,10 +18,11 @@ That evening, he told his colleague Maya, "I spend more time preparing documents
 
 She showed him a simple setup: config, chapter files, and one build command.
 
-## A Better Tuesday
+![Frustrated writer at the computer](../assets/frustrated-at-computer.svg){.figure-full}
+*{{figure:frustrated-cartoon | A common starting point: the writer is stuck in formatting friction instead of writing flow.}}*
+{:.figure-caption .figure-full-caption}
 
-![A Better Tuesday illustration](../assets/chapter-better-tuesday.svg)
-*{{figure:tuesday-flow | Writing flow restored: one Markdown source to one polished PDF output.}}*
+## A Better Tuesday
 
 The next day, Daniel wrote directly in one Markdown chapter.
 
@@ -37,9 +35,6 @@ The result looked consistent and publication-ready. Total time: a little over an
 He did not write less. He wrote with less friction.
 
 ## Why It Worked
-
-![Why It Worked illustration](../assets/chapter-why-it-worked.svg)
-*{{figure:three-levers | Three efficiency levers: separation, repeatable publishing, and scalable quality.}}*
 
 The improvement came from removing overhead, not rushing.
 
@@ -57,8 +52,9 @@ Within two weeks, the team saw clear gains:
 
 ## Confidence, Then Adoption
 
-![Confidence Then Adoption illustration](../assets/chapter-confidence-adoption.svg)
-*{{figure:team-adoption | Confidence in output leads to team adoption and a stable publish cadence.}}*
+![Happy writer at the computer](../assets/happy-at-computer.svg){.figure-right}
+*{{figure:happy-cartoon | Later state: confident output and a calmer writing process after adopting the generator.}}*
+{:.figure-caption .figure-right-caption}
 
 The biggest change was confidence.
 
@@ -76,9 +72,6 @@ Soon the team had a steady cadence: write, review, publish, without formatting f
 
 ## Time Returned
 
-![Time Returned illustration](../assets/chapter-time-returned.svg)
-*{{figure:time-returned | Recovered hours are reinvested into analysis, argument quality, and mentoring.}}*
-
 Three months later, Daniel had hours back each week.
 
 He used that time to interview stakeholders, sharpen arguments, and mentor a junior analyst.
@@ -86,3 +79,13 @@ He used that time to interview stakeholders, sharpen arguments, and mentor a jun
 That is the practical value of this document generator: it moves effort from mechanics to thinking.
 
 If your workflow feels heavy, start small. Write one chapter in Markdown, run one build command, and let the pipeline handle the rest.
+
+## Version History
+
+| Version | Date | Summary |
+|---------|------|---------|
+| 0.1 | 2026-06-10 | Initial narrative draft created. |
+| 0.2 | 2026-06-10 | Story condensed to roughly one-third length. |
+| 0.3 | 2026-06-10 | Added HMH logo support on cover and headers. |
+| 0.4 | 2026-06-10 | Removed section illustrations from chapter content. |
+| 1.0 | 2026-06-10 | Finalized example chapter for PDF generation demo. |

@@ -2,15 +2,15 @@
   "version": "2.0.0",
   "inputs": [
     {
-      "id": "docCategory",
+      "id": "docVariant",
       "type": "promptString",
-      "description": "Category (for example: VARIANT_A)",
+      "description": "Variant (for example: VARIANT_A)",
       "default": "VARIANT_A"
     }
   ],
   "tasks": [
     {
-      "label": "DocGen: List Categories (Current Doc)",
+      "label": "DocGen: List Variants (Current Doc)",
       "type": "shell",
       "command": "C:/ProgramData/anaconda3/python.exe",
       "args": [
@@ -30,7 +30,7 @@
       "args": [
         "C:/source/github/doc-generator/buildModularDocument.py",
         "${workspaceFolder}",
-        "${input:docCategory}"
+        "${input:docVariant}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -62,7 +62,7 @@
       "args": [
         "C:/source/github/doc-generator/buildModularDocument.py",
         "${workspaceFolder}",
-        "${input:docCategory}",
+        "${input:docVariant}",
         "--md"
       ],
       "options": {
@@ -77,9 +77,24 @@
       "args": [
         "C:/source/github/doc-generator/buildModularDocument.py",
         "${workspaceFolder}",
-        "${input:docCategory}",
+        "${input:docVariant}",
         "--md",
         "--docx"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen: Validate Markdown Policy (Current Doc)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}",
+        "--all",
+        "--md"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
