@@ -1,12 +1,12 @@
 # ─── Document Configuration ───────────────────────────────────────────────
-# This config file defines document metadata, variant categories, and all
+# This config file defines document metadata, variants, and all
 # content-filtering rules. Copy this file + the chapters/ folder to create
 # a new document project.
 #
 # Usage:
 #   python buildModularDocument.py SA40-0001 O_Basic        # Build one variant
 #   python buildModularDocument.py SA40-0001 --all       # Build all variants
-#   python buildModularDocument.py SA40-0001 --list      # List available categories
+#   python buildModularDocument.py SA40-0001 --list      # List available variants
 #   python buildModularDocument.py SA40-0001 O_DnvDrill --md   # Markdown only (no PDF)
 
 document:
@@ -37,7 +37,7 @@ document:
       reason: "Document table 18-1 updated. EU directives updated."
       date: "February 15, 2018"
 
-categories:
+variants:
   O_Basic:
     doc_code: "SA40-0001-01"
     label: "Offshore Drilling Basic"

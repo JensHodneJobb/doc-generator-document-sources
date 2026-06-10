@@ -1,168 +1,88 @@
-<div style="text-align: center; margin-top: 35%;">
-
 # The Three-Hour Advantage
 
 ### How Markdown Restores Writing Flow
 
-</div>
-
-<div style="page-break-after: always;"></div>
+---
 
 ## Monday Morning
 
-On Monday morning, Daniel opened his laptop with the same promise he made every week: this time, writing the weekly operations brief would be quick.
+![Monday Morning illustration](../assets/chapter-monday-morning.svg)
+*{{figure:monday-overhead | Monday workflow clutter: formatting overhead dominates writing time.}}*
 
-By Monday afternoon, the promise was broken.
+On Monday, Daniel opened his weekly brief with the same hope: this one would be fast.
 
-He copied paragraphs from old files, updated dates in headers, and watched Word do what Word does: list numbering restarted for no reason, heading styles mutated after one paste, an image jumped two pages down, and the table of contents still needed a manual "Update entire table" click before export.
+By afternoon, he was still fighting the file, not writing.
 
-Then came the filename spiral: Weekly-Brief-v6.docx, Weekly-Brief-v6-FINAL.docx, and Weekly-Brief-v6-FINAL-final2.docx.
+Word had restarted list numbering, shifted heading styles after a paste, and pushed an image to the wrong page. The table of contents still needed manual updates, and the file name had already become another "FINAL-final" version.
 
-The writing itself took forty minutes. Everything around it took more than three hours.
+The writing took less than an hour. The formatting took more than three.
 
-That night, Daniel told his colleague Maya, “I spend more time preparing documents than writing them.” She replied, “Then stop preparing documents. Start generating them.”
+That evening, he told his colleague Maya, "I spend more time preparing documents than writing them." She answered, "Then stop preparing documents. Generate them."
 
-She showed him this document generator.
+She showed him a simple setup: config, chapter files, and one build command.
 
-At first glance, it looked too simple to matter: a small config, a chapters folder, and one build command. Daniel expected dashboards and complexity. Instead, he found a practical system that kept writing and formatting separate.
+## A Better Tuesday
 
-It changed everything.
+![A Better Tuesday illustration](../assets/chapter-better-tuesday.svg)
+*{{figure:tuesday-flow | Writing flow restored: one Markdown source to one polished PDF output.}}*
 
-## A New Writing Day
+The next day, Daniel wrote directly in one Markdown chapter.
 
-Tuesday began differently.
+No template hunting. No style cleanup. No hidden formatting surprises.
 
-Daniel opened one Markdown file and started writing immediately. No template hunting. No copy-and-paste archaeology. No format painter. No wrestling with invisible section breaks.
+He focused on structure and message, then ran one command to generate a polished PDF.
 
-He used headings for structure, plain Markdown for emphasis, and kept moving.
+The result looked consistent and publication-ready. Total time: a little over an hour.
 
-There was no debate about heading sizes or spacing because style lived in one place and the generator handled it at build time.
+He did not write less. He wrote with less friction.
 
-There was also no random collapse of numbering, no "why did this bullet indent change" moment, and no surprise font switch because one paragraph carried hidden formatting.
+## Why It Worked
 
-At the end, he ran one command and got a polished PDF.
+![Why It Worked illustration](../assets/chapter-why-it-worked.svg)
+*{{figure:three-levers | Three efficiency levers: separation, repeatable publishing, and scalable quality.}}*
 
-The layout was consistent. The output looked professional and ready to distribute.
+The improvement came from removing overhead, not rushing.
 
-Total time: just over an hour.
+First, content and presentation were separated. Daniel wrote words; the pipeline applied style.
 
-He had not written less. He had written better, with less friction.
+Second, publishing became repeatable. The team stopped reinventing export steps every week.
 
-## Why Efficiency Improves So Fast
+Third, quality became scalable. Update style rules once, and future documents inherit the change.
 
-Most teams try to improve writing speed by typing faster or reusing old text. The real bottleneck is overhead: repetitive work around the writing.
+Within two weeks, the team saw clear gains:
 
-The generator removes that overhead in three practical ways.
+- Draft prep time dropped by about 60 percent.
+- Formatting defects became rare.
+- Reviews shifted from layout problems to content quality.
 
-First, it separates content from presentation.
+## Confidence, Then Adoption
 
-You focus on words in Markdown. The generator applies style and rendering. That saves the micro-decisions that drain focus.
+![Confidence Then Adoption illustration](../assets/chapter-confidence-adoption.svg)
+*{{figure:team-adoption | Confidence in output leads to team adoption and a stable publish cadence.}}*
 
-Second, it creates a repeatable publishing path.
+The biggest change was confidence.
 
-You do not reinvent export steps every week. You run the same flow every time. That consistency reduces errors and deadline stress.
+Before, Daniel expected formatting surprises. After adopting the generator, he trusted the output and focused on clarity.
 
-Third, it makes quality scalable.
+His manager noticed quickly: reports were cleaner and easier to read.
 
-When standards change, update config or CSS once. Future documents inherit the improvement automatically.
-
-In Daniel's team, the results appeared within two weeks.
-
-- Draft preparation time dropped by about 60 percent.
-- Formatting defects nearly disappeared.
-- Late-night cleanup sessions became rare.
-- Reviewers discussed ideas instead of layout.
-
-That is real efficiency: not rushing writing, but removing non-writing work.
-
-## The Confidence Effect
-
-Unexpectedly, the biggest win was not speed. It was confidence.
-
-Before the generator, Daniel worried about visual mistakes and familiar Word chaos: broken tables, inconsistent headings, drifting page breaks, and copied text bringing half a foreign template along with it.
-
-After the generator, that background anxiety faded.
-
-He knew the document would compile into a predictable, high-quality format. That trust freed him to focus on clarity and persuasion.
-
-When people focus on message clarity, writing improves.
-
-His manager noticed first.
-
-"Your reports feel sharper," she said. "Cleaner. Easier to read."
-
-The generator did not write his words for him. It gave his expertise a cleaner runway.
-
-## From One Writer to One Team
-
-By month end, Maya and Daniel invited two more teammates into the workflow.
-
-Onboarding was short. Each person needed only a few concepts.
+By month end, two more teammates joined the workflow. Onboarding was simple:
 
 - Write in Markdown chapters.
-- Keep content modular and clear.
-- Run the build command to produce the PDF.
+- Keep sections modular.
+- Run the build command.
 
-Within days, everyone was publishing documents that looked unified, even with different writing voices. The team stopped arguing about template versions and started reusing process.
+Soon the team had a steady cadence: write, review, publish, without formatting fire drills.
 
-Their weekly cadence changed.
+## Time Returned
 
-- Monday: write and revise.
-- Tuesday: review ideas.
-- Wednesday: publish with confidence.
+![Time Returned illustration](../assets/chapter-time-returned.svg)
+*{{figure:time-returned | Recovered hours are reinvested into analysis, argument quality, and mentoring.}}*
 
-No formatting fire drills. No panicked export loops.
+Three months later, Daniel had hours back each week.
 
-The system turned documents from handcrafted artifacts into reliable outputs.
+He used that time to interview stakeholders, sharpen arguments, and mentor a junior analyst.
 
-That reliability multiplied productivity.
+That is the practical value of this document generator: it moves effort from mechanics to thinking.
 
-## A Story About Time
-
-Three months later, Daniel looked at his calendar and saw something surprising.
-
-He had gained back hours every week.
-
-He used that time to interview stakeholders before writing, tighten arguments, and mentor a junior analyst.
-
-The team did not become faster by cutting corners.
-
-They became faster by removing repetitive steps that never should have required human attention.
-
-That is the practical promise of this document generator:
-
-It helps you spend your best hours on thought, not formatting.
-
-It lets you move from draft to polished PDF without losing momentum.
-
-It gives your writing process a foundation that is quick to adopt and strong enough for long-term growth.
-
-If your workflow feels heavy or fragmented, this tool offers a better path.
-
-You do not need to become a designer.
-
-You do not need to become a publishing expert.
-
-You only need to write clearly in Markdown and let the build pipeline do the rest.
-
-## Your Next Three Pages
-
-Imagine your next report, proposal, handbook, or specification.
-
-Imagine starting with content instead of formatting.
-
-Imagine pressing build and getting a clean PDF you are proud to send.
-
-Imagine reclaiming lost hours every week and investing them in better analysis and stronger storytelling.
-
-That is not a distant transformation. It starts with one document, one chapter file, and one build command.
-
-Daniel's story is simple because the workflow is simple.
-
-He stopped wrestling with document mechanics.
-
-He started writing.
-
-The team started shipping.
-
-And the clock finally moved in their favor.
+If your workflow feels heavy, start small. Write one chapter in Markdown, run one build command, and let the pipeline handle the rest.

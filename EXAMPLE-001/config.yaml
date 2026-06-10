@@ -2,7 +2,7 @@
 # A simple example project to demonstrate the modular document generator.
 #
 # This project has only 4 short chapters and 2 variants, making it easy
-# to see how categories, tags, opt-blocks, and variables work.
+# to see how variants, tags, opt-blocks, and variables work.
 #
 # Usage:
 #   python buildModularDocument.py EXAMPLE-001 --list      # List variants
@@ -30,7 +30,7 @@ document:
 # FULL  = Complete handbook for permanent employees
 # LITE  = Shorter version for contractors (skips benefits chapter)
 
-categories:
+variants:
   FULL:
     doc_code: "EXAMPLE-001-FULL"
     label: "Full Employee Handbook"

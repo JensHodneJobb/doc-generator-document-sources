@@ -85,6 +85,152 @@
         "cwd": "${workspaceFolder}/SA40-0001"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-001: List Categories",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-001",
+        "--list"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-001"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-001: Build One Variant (PDF)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-001",
+        "${input:docCategory}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-001"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-001: Build All Variants",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-001",
+        "--all"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-001"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-001: Markdown Only",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-001",
+        "${input:docCategory}",
+        "--md"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-001"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-001: Markdown + DOCX (No PDF)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-001",
+        "${input:docCategory}",
+        "--md",
+        "--docx"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-001"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-002-SIMPLE-PDF: List Categories",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF",
+        "--list"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-002-SIMPLE-PDF: Build One Variant (PDF)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF",
+        "${input:docCategory}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-002-SIMPLE-PDF: Build All Variants",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF",
+        "--all"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-002-SIMPLE-PDF: Markdown Only",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF",
+        "${input:docCategory}",
+        "--md"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DocGen EXAMPLE-002-SIMPLE-PDF: Markdown + DOCX (No PDF)",
+      "type": "shell",
+      "command": "C:/ProgramData/anaconda3/python.exe",
+      "args": [
+        "C:/source/github/doc-generator/buildModularDocument.py",
+        "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF",
+        "${input:docCategory}",
+        "--md",
+        "--docx"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/EXAMPLE-002-SIMPLE-PDF"
+      },
+      "problemMatcher": []
     }
   ]
 }

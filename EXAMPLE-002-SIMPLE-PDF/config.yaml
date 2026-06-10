@@ -2,7 +2,7 @@ document:
   cover_title: "The Three-Hour Advantage"
   version: "01"
 
-categories:
+variants:
   PDF:
     doc_code: "EXAMPLE-002"
     label: "How Markdown Restores Writing Flow"
