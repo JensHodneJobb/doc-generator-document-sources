@@ -58,8 +58,12 @@ body {
 .cover-logo {
     position: absolute;
     top: 1.6cm;
-    left: 2cm;
+    right: 2cm;
+    left: auto;
     height: 1.5cm;
+    width: auto;
+    max-width: none;
+    margin: 0;
 }
 
 /* Title is constrained to ~half page width so long titles wrap onto
